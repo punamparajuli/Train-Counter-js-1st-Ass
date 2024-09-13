@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+main{
+    min-height: 100vh;
+    background-image:url("train photo.jpg");
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    
+}
+section{
+    background-color:hsl(200, 14%, 71%) ;
+    border: 5px rgb(1, 1, 19) solid;
+    border-radius: 20%;
+    padding:4rem;
+    
+
+}
+
+
+.buttons>button{
+    background-color: rgb(202, 215, 179);
+    border-radius: 30%;
+    padding : 10px;
+    
+    
+}
+.buttons{
+margin-top: 20px;
+
+}
